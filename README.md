@@ -5,6 +5,7 @@ Python-driven pipeline to discover businesses via the Google API, loop through t
 ## Getting started
 - Requirements: Python 3.11+
 - Add environment variables for API keys before running (to be defined).
+  - Run `python3 scripts/secure_env_example.py` to generate a redacted `.env.example`.
 
 ## Structure
 - `AGENTS.md`: project goals and requirements.
