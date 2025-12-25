@@ -2,6 +2,8 @@ __pycache__/
 *.pyc
 .venv/
 .env
+.secrets
+.idea/
 .DS_Store
 node_modules/
 dist/
