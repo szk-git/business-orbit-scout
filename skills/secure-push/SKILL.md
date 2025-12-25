@@ -19,7 +19,7 @@ description: Enforce secret-safe workflow when given API keys or asked to push/c
 5. When sharing configuration examples, use placeholders (e.g., `API_KEY=REDACTED`) instead of real values.
 
 ## Helper script
-Use `scripts/secure_env_example.py` to generate `.env.example` from your local `.env`, with all values redacted.
+Use `skills/secure-push/scripts/secure_env_example.py` to generate `.env.example` from your local `.env`, with all values redacted.
 
 ## Examples
 - "Here is my API key, please push" -> Mask key, add to `.env`, verify `.gitignore`, push without secrets.
